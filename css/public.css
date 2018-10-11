@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,td,li{margin:0;padding:0;box-sizing: border-box;}
+body{font:12px  "宋体"; word-wrap:break-word;}
+a,u,s,del{color:#666;text-decoration:none;} 
+
+div{box-sizing: border-box;}
+
+
+fieldset ,a img,.bor0 {border:0;}
+i,em,b{font-style:normal;font-weight:100;}
+li{list-style:none;}
+img{vertical-align:middle;}
+table{border-collapse:collapse;}
+.ind2{text-indent:2em;}
+input,textarea{outline:none;}
+textarea{resize:none;}/*禁止拖动*/
+a{cursor:pointer;}
+/*文本溢出隐藏出现省略号*/
+.over{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+
+/* 图片水平垂直居中 */
+.valign img{vertical-align:middle;}
+.valign:after{content:"";vertical-align:middle;display:inline-block;height:100%;}
+
+/*万能清除法*/
+.clear{zoom:1;/*一条解决ie疑难杂症(浮动)的神奇属性*/}
+.clear:after{content:"";clear:both;display:block;}
+.clear:before{content:"";display:table;}/*解决第一个块元素margin-top向上传递问题*/

@@ -1,0 +1,28 @@
+
+#login{height:488px;background:#ffe8d9 url(../img/login_bg.jpg) 50% 0 repeat-x;overflow: hidden;}
+#login .login-box{width:420px;height:408px;margin-top:40px;background:#fff;float:right;margin-right:90px;padding:20px;box-sizing: border-box;}
+#login .login-box ul{border-bottom:2px solid #d9d9d9;margin-bottom:15px;position:relative;}
+#login .login-box ul li{float:left;display: block;}
+#login .login-box ul li a{display:block;font-size:16px;padding:10px 35px;}
+#login .login-box ul li a:hover{color:#f60;}
+#login .login-box ul li.active a{color:#FF6A00;border-bottom:2px solid #FF6A00;margin-bottom:-2px;}
+
+
+#login .login-box a.logMedthod{float:right;margin-right:38px;color:#f60;font-size:12px;}
+
+#login .login-box form#myForm{/*display:none;*/}
+#login .login-box form .tab-login{position:relative;}
+#login .login-box form .tab-login .xian{min-height: 1px;margin:25px 0;}
+#login .login-box form .tab-login .input-add{width:304px;height:40px;margin:10px auto;text-align: center;border:1px solid #9d9d9d;}
+#login .login-box form .tab-login .input-add span{display:block;width:37px;height:40px;background:#eee;float:left;font:16px/40px "";color:##4d4d4d;border-right:1px solid #9d9d9d;}
+
+#login .login-box form .tab-login .input-add input{height:38px;width:264px;border:0;text-indent:10px;font:14px/38px "";}
+
+#login .login-box form .tab-login a{display:block;width:100px;height:15px;position: absolute;right:0;color:#f60;}
+
+#login .login-box form .tab-login .sub1{width:304px;height:46px;border:0;background:#f60;color:#fff;padding:10px 16px;font-size:16px;border-radius:5px;margin-top:31px;position:absolute;left:40px;}
+
+#login .login-box form#myLoad{}
+#login .login-box form .tab-login .zhuce input{width:304px;height:40px;box-sizing: border-box;text-indent:10px;font:14px/38px "";border:1px solid #9d9d9d;margin:10px auto;margin-left:40px;}
+
+#login .login-box form .tab-login .sub2{width:304px;height:46px;border:0;background:#f60;color:#fff;padding:10px 16px;font-size:16px;border-radius:5px;margin-top:31px;position:absolute;left:40px;}
